@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pills"
+            android:title="@string/drawer_menu_pills" />
+        <item
+            android:id="@+id/nav_info"
+            android:title="@string/drawer_menu_med_data" />
+        <item
+            android:id="@+id/nav_maps"
+            android:title="@string/drawer_menu_hospital_finder" />
+    </group>
+
+    <group android:id="@+id/gr">
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/drawer_menu_settings"/>
+    </group>
+
+</menu>

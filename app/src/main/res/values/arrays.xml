@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferences_languages_array">
+        <item>English</item>
+        <item>Romanian</item>
+    </string-array>
+
+    <string-array name="preferences_languages_values">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+
+</resources>

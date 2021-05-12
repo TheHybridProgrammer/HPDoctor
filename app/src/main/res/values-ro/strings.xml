@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HPDoctor</string>
+
+    <!-- User strings -->
+    <string name="user_activity">User</string>
+    <string name="logout_button">Logout</string>
+
+    <!-- Drawer Menu strings -->
+    <string name="drawer_menu_logout">Ești sigur că vrei să te deconectezi?</string>
+    <string name="drawer_menu_ok">Ok</string>
+    <string name="drawer_menu_cancel">Anulare</string>
+    <string name="drawer_menu_settings">Setări</string>
+    <string name="drawer_menu_pills">Memorator de pastile</string>
+    <string name="drawer_menu_med_data">Date Medicale</string>
+    <string name="drawer_menu_hospital_finder">Locații Medicale</string>
+    <string name="drawer_menu_data_upload_request">Încărcarea pe Cloud va duce la ștergerea datelor deja existente acolo. Doriți să continuați?</string>
+    <string name="drawer_menu_data_upload">Încarcă</string>
+    <string name="drawer_menu_data_cancel">Anulare</string>
+    <string name="drawer_menu_data_upload_fail">Încărcarea a eșuat!</string>
+    <string name="drawer_menu_data_upload_succesful">Încărcarea s-a realizat cu succes!</string>
+    <string name="drawer_menu_data_download_succesful">Descărcarea s-a realizat cu succes!</string>
+    <string name="drawer_menu_data_download_fail">Descărcarea a eșuat!</string>
+    <string name="drawer_menu_data_download_request">Sunteți sigur că doriți să descărcați datele din cloud? Acest procedeu va duce la ștergerea datelor locale!</string>
+    <string name="drawer_menu_data_dowload">Descarcă</string>
+
+    <!-- Medical Data Strings -->
+    <string name="med_data_body">Date Corp</string>
+    <string name="med_data_blood">Date Sânge</string>
+    <string name="med_data_eyes">Date Ochi</string>
+    <string name="med_data_kidneys">Date Rinichi</string>
+
+    <string name="med_data_ok">Ok</string>
+    <string name="med_data_cancel">Anulare</string>
+    <string name="med_data_upload">Încarcă date</string>
+    <string name="med_data_download">Descarcă datele</string>
+    <string name="med_data_download_succesful">Descărcarea s-a realizat cu succes!</string>
+    <string name="med_data_download_unsuccesful">Descărcarea a eșuat!</string>
+
+    <string name="med_data_weight">"Greutate: "</string>
+    <string name="med_data_height">"Înălțime: "</string>
+    <string name="med_data_age">"Vârstă: "</string>
+    <string name="med_data_dateofbirth">"Data nașterii: "</string>
+    <string name="med_data_sex">"Sex: "</string>
+    <string name="med_data_eyecolor">"Culoarea ochilor: "</string>
+
+    <string name="med_data_blood_group">"Grupa sanguină: "</string>
+    <string name="med_data_blood_WBC">"Leucocite: "</string>
+    <string name="med_data_blood_RBC">"Entrocite: "</string>
+    <string name="med_data_blood_platelets">"Trombocite: "</string>
+    <string name="med_data_blood_hematocrit">"Hematocrit: "</string>
+    <string name="med_data_blood_bloodglucose">"Glicemia: "</string>
+    <string name="med_data_blood_calcium">"Calciu: "</string>
+    <string name="med_data_blood_electrolytes">"Electroliți: "</string>
+    <string name="med_data_blood_cholesterol">"Colesterol: "</string>
+
+    <string name="med_data_eyes_diopter">"Dioptria: "</string>
+    <string name="med_data_eyes_acuity">"Acuitate: "</string>
+    <string name="med_data_eyes_refraction">"Refracția: "</string>
+
+    <string name="med_data_kidneys_ACR">"ACR: "</string>
+    <string name="med_data_kidneys_GFR">"RFG: "</string>
+
+    <!-- Pills Strings -->
+    <string name="pills_monday">L</string>
+    <string name="pills_tuesday">M</string>
+    <string name="pills_wednesday">M</string>
+    <string name="pills_thursday">J</string>
+    <string name="pills_friday">V</string>
+    <string name="pills_saturday">S</string>
+    <string name="pills_sunday">D</string>
+    <string name="pills_modifier_activity">Pills modifier</string>
+    <string name="pills_add">Adaugă</string>
+    <string name="pills_cancel">Anulare</string>
+    <string name="pills_addnotification">Adaugă Notificare</string>
+    <string name="pills_name">Nume pastilă</string>
+    <string name="pills_hour">"Hour "</string>
+    <string name="pills_minute">"Minute "</string>
+    <string name="pills_delete_message">Vrei să ștergi această notificare?</string>
+    <string name="pills_delete">Ștergere</string>
+    <string name="pills_back">Înapoi</string>
+    <string name="pills_max_notifications">Maxim de 6 notificații!</string>
+    <string name="pills_max_pillcount">Maxim de 99 de pastile!</string>
+    <string name="pills_min_pillcount">Este nevoie de cel puțin 1 pastilă!</string>
+    <string name="pills_fields_left_empty">Trebuie aleasă un nume de pastilă și o zi a săptămânii!</string>
+    <string name="pills_add_pill_activity">Add pill</string>
+    <string name="pills_modify">Modifică</string>
+    <string name="pill_time">"Este timpul să îți iei "</string>
+    <string name="pill_pills_left_notification">"Uite câte pastile au mai rămast: "</string>
+    <string name="pills_duplicate_pill">Nu se poate crea o pastilă nouă cu numele unei pastile deja existente!</string>
+    <string name="pills_modify_duplicate_pill">Nu se poate modifica în numele unei pastile deja existente!</string>
+
+    <!-- Map strings -->
+    <string name="map_hospitals">Spitale</string>
+    <string name="map_dentists">Dentiști</string>
+    <string name="map_pharmacies">Farmacii</string>
+    <string name="map_showing_hospitals">Spitale din apropiere.</string>
+    <string name="map_showing_dentists">Dentiști din apropriere.</string>
+    <string name="map_showing_pharmacies">Farmacii din apropiere.</string>
+
+    <!-- Settings strings -->
+    <string name="settings_appearance">Aparență</string>
+    <string name="settings_nightmode">Mod de noapte</string>
+    <string name="settings_language_title">Limbă</string>
+    <string name="settings_nightmode_on">Mod de noapte Activat</string>
+    <string name="settings_nightmode_off">Mod de noapte Dezactivat</string>
+</resources>

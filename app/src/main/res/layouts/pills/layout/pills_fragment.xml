@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pills.PillsFragment">
+
+    <TextClock
+        android:id="@+id/pills_live_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:format24Hour="dd MMM yyyy HH:mm:ss"
+        android:format12Hour="dd MMM yyyy hh:mm:ss a"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/pills_buttons_constraint_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp" >
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_monday"
+                android:layout_width="45dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pills_monday"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/MatButton"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_tuesday"
+                android:layout_width="45dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pills_tuesday"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/MatButton"
+                app:layout_constraintStart_toEndOf="@+id/button_monday"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_wednesday"
+                android:layout_width="45dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pills_wednesday"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/MatButton"
+                app:layout_constraintStart_toEndOf="@+id/button_tuesday"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_thursday"
+                android:layout_width="45dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pills_thursday"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/MatButton"
+                app:layout_constraintStart_toEndOf="@+id/button_wednesday"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_friday"
+                android:layout_width="45dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pills_friday"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/MatButton"
+                app:layout_constraintStart_toEndOf="@+id/button_thursday"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_saturday"
+                android:layout_width="45dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pills_saturday"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/MatButton"
+                app:layout_constraintStart_toEndOf="@+id/button_friday"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_sunday"
+                android:layout_width="45dp"
+                android:layout_height="55dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/pills_sunday"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                android:theme="@style/MatButton"
+                app:layout_constraintStart_toEndOf="@+id/button_saturday"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Button.Circle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ListView
+            android:id="@+id/pills_listview_current_pills"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pills_buttons_constraint_layout"
+            android:layout_above="@+id/add_pills"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_pills"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"
+            app:borderWidth="0dp"
+            android:backgroundTint="?attr/colorPrimary"
+            android:src="@drawable/ic_add" />
+
+    </RelativeLayout>

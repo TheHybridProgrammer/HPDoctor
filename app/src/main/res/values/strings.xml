@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">HPDoctor</string>
+
+    <string name="google_map_key">AIzaSyCPm7Ae7ZUvl0Bh4VaE35c822BkGsQpd_s</string>
+
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Drawer Menu strings -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="drawer_menu_logout">Are you sure you want to logout?</string>
+    <string name="drawer_menu_ok">OK</string>
+    <string name="drawer_menu_cancel">Cancel</string>
+    <string name="drawer_menu_pills">Pills Reminder</string>
+    <string name="drawer_menu_settings">Settings</string>
+    <string name="drawer_menu_med_data">Medical Data</string>
+    <string name="drawer_menu_hospital_finder">Medical Locations</string>
+    <string name="drawer_menu_data_upload_request">Uploading will overwrite current Cloud data. Are you sure you wish to proceed?</string>
+    <string name="drawer_menu_data_upload">Upload</string>
+    <string name="drawer_menu_data_cancel">Cancel</string>
+    <string name="drawer_menu_data_upload_fail">Upload failed!</string>
+    <string name="drawer_menu_data_upload_succesful">Upload was successful!</string>
+    <string name="drawer_menu_data_download_succesful">Download was successful!</string>
+    <string name="drawer_menu_data_download_fail">Download failed!</string>
+    <string name="drawer_menu_data_download_request">Are you sure you want to download Cloud data? Doing so will overwrite local data!</string>
+    <string name="drawer_menu_data_dowload">Download</string>
+
+    <!-- User strings -->
+    <string name="user_activity">User</string>
+    <string name="logout_button">Logout</string>
+
+    <string name="settings_language_title">Language</string>
+
+    <!-- Med Data strings -->
+    <string name="med_data_body">Body Data</string>
+    <string name="med_data_blood">Blood Data</string>
+    <string name="med_data_eyes">Eyes Data</string>
+    <string name="med_data_kidneys">Kidneys Data</string>
+
+    <string name="med_data_ok">OK</string>
+    <string name="med_data_cancel">Cancel</string>
+    <string name="med_data_upload">Upload data</string>
+    <string name="med_data_download">Download data</string>
+    <string name="med_data_download_succesful">Download was succesful!</string>
+    <string name="med_data_download_unsuccesful">Download failed!</string>
+
+    <string name="med_data_weight">"Weight: "</string>
+    <string name="med_data_height">"Height: "</string>
+    <string name="med_data_age">"Age: "</string>
+    <string name="med_data_dateofbirth">"Date of birth: "</string>
+    <string name="med_data_sex">"Sex: "</string>
+    <string name="med_data_eyecolor">"Eye color: "</string>
+
+    <string name="med_data_blood_group">"Blood Group: "</string>
+    <string name="med_data_blood_WBC">"WBC: "</string>
+    <string name="med_data_blood_RBC">"RBC: "</string>
+    <string name="med_data_blood_platelets">"Platelets: "</string>
+    <string name="med_data_blood_hematocrit">"Hematocrit: "</string>
+    <string name="med_data_blood_bloodglucose">"Blood glucose: "</string>
+    <string name="med_data_blood_calcium">"Calcium: "</string>
+    <string name="med_data_blood_electrolytes">"Electrolytes: "</string>
+    <string name="med_data_blood_cholesterol">"Cholesterol: "</string>
+
+    <string name="med_data_eyes_diopter">"Diopter: "</string>
+    <string name="med_data_eyes_acuity">"Acuity: "</string>
+    <string name="med_data_eyes_refraction">"Refraction: "</string>
+
+    <string name="med_data_kidneys_ACR">"ACR: "</string>
+    <string name="med_data_kidneys_GFR">"GFR: "</string>
+
+    <!-- Pills Strings -->
+    <string name="pills_monday">M</string>
+    <string name="pills_tuesday">T</string>
+    <string name="pills_wednesday">W</string>
+    <string name="pills_thursday">T</string>
+    <string name="pills_friday">F</string>
+    <string name="pills_saturday">S</string>
+    <string name="pills_sunday">S</string>
+    <string name="pills_modifier_activity">Pills modifier</string>
+    <string name="pills_add">Add</string>
+    <string name="pills_cancel">Cancel</string>
+    <string name="pills_addnotification">Add Notification</string>
+    <string name="pills_name">Pill name</string>
+    <string name="pills_hour">"Hour "</string>
+    <string name="pills_minute">"Minute "</string>
+    <string name="pills_delete_message">Do you want to delete this notification?</string>
+    <string name="pills_delete">Delete</string>
+    <string name="pills_back">Back</string>
+    <string name="pills_max_notifications">Maximum of 6 notifications!</string>
+    <string name="pills_max_pillcount">Maximum of 99 pills!</string>
+    <string name="pills_min_pillcount">Need at least 1 pill!</string>
+    <string name="pills_fields_left_empty">Please select a pill name and a day!</string>
+    <string name="pills_add_pill_activity">Add pill</string>
+    <string name="pills_modify">Modify</string>
+    <string name="pill_time">"It's time to take your "</string>
+    <string name="pill_pills_left_notification">"Here's how many pills you have left: "</string>
+    <string name="pills_duplicate_pill">Can\'t create a new pill with an existing pill name!</string>
+    <string name="pills_modify_duplicate_pill">Can\'t modify into the name of an already existing pill!</string>
+
+    <!-- Map strings -->
+    <string name="map_activity">Map</string>
+    <string name="map_hospitals">Hospitals</string>
+    <string name="map_dentists">Dentists</string>
+    <string name="map_pharmacies">Pharmacies</string>
+    <string name="map_showing_hospitals">Showing nearby hospitals.</string>
+    <string name="map_showing_dentists">Showing nearby dentists.</string>
+    <string name="map_showing_pharmacies">Showing nearby pharmacies.</string>
+
+    <!-- Settings strings -->
+    <string name="settings_appearance">Appearance</string>
+
+    <string name="settings_night_mode">night_mode</string>
+    <string name="settings_nightmode">Night Mode</string>
+    <string name="settings_nightmode_on">Night mode enabled</string>
+    <string name="settings_nightmode_off">Night mode disabled</string>
+    <string name="settings_language_list">language_list</string>
+
+</resources>

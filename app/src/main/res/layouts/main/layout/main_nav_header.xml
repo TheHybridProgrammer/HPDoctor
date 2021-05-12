@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+    android:gravity="bottom"
+    android:fitsSystemWindows="true"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/nav_sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <ImageView
+        android:id="@+id/nav_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@mipmap/ic_hpdoctor"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/nav_user_photo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#00000000"/>
+
+    <TextView
+        android:id="@+id/nav_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/nav_user_photo"
+        android:visibility="gone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <ImageButton
+        android:id="@+id/nav_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="17dp"
+        android:layout_toRightOf="@id/nav_user_name"
+        android:layout_alignBottom="@id/nav_user_name"
+        android:visibility="gone"
+        android:src="@drawable/upload_sign"/>
+
+    <ImageButton
+        android:id="@+id/nav_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/nav_upload"
+        android:layout_alignBottom="@id/nav_user_name"
+        android:visibility="gone"
+        android:src="@drawable/download_sign"/>
+
+</RelativeLayout>
