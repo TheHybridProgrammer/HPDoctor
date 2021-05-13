@@ -9,12 +9,14 @@ import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Build;
 
 import androidx.core.app.NotificationCompat;
 
 import com.hybridco.android.hpdoctor.MainNavigationDrawerActivity;
 import com.hybridco.android.hpdoctor.R;
+import com.hybridco.android.hpdoctor.utilities.Utilities;
 
 import java.util.Calendar;
 
@@ -55,12 +57,25 @@ public class PillsNotificationHelper extends ContextWrapper {
     }
 
     public NotificationCompat.Builder getChannelNotification() {
+        //SharedPreference init
+        SharedPreferences sharedPref =
+                this.getSharedPreferences("com.hybridco.android.hpdoctor_preferences",
+                        MODE_PRIVATE);
+
+        String langValue = sharedPref.getString("language_list", "");
+        Resources resources = getResources();
+        if (langValue.equals("1")) {
+            Utilities.changeLang("en", resources);
+        } else if (langValue.equals("2")) {
+            Utilities.changeLang("ro", resources);
+        }
+
         Intent resultIntent = new Intent(this, MainNavigationDrawerActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, alarmName, resultIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT);
 
         return new NotificationCompat.Builder(getApplicationContext(), channelID)
-                .setContentTitle("Este timpul să iei " + channelName + ".")
+                .setContentTitle(this.getString(R.string.pills_time) + channelName + ".")
                 .setSmallIcon(R.mipmap.ic_hpdoctor)
                 .setAutoCancel(true)
                 .setContentIntent(pendingIntent);

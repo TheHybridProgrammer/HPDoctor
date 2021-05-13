@@ -85,8 +85,7 @@
     <string name="pills_fields_left_empty">Trebuie aleasă un nume de pastilă și o zi a săptămânii!</string>
     <string name="pills_add_pill_activity">Add pill</string>
     <string name="pills_modify">Modifică</string>
-    <string name="pill_time">"Este timpul să îți iei "</string>
-    <string name="pill_pills_left_notification">"Uite câte pastile au mai rămast: "</string>
+    <string name="pills_time">"Este timpul să iei "</string>
     <string name="pills_duplicate_pill">Nu se poate crea o pastilă nouă cu numele unei pastile deja existente!</string>
     <string name="pills_modify_duplicate_pill">Nu se poate modifica în numele unei pastile deja existente!</string>
 

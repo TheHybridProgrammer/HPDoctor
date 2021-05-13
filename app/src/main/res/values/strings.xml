@@ -92,11 +92,9 @@
     <string name="pills_fields_left_empty">Please select a pill name and a day!</string>
     <string name="pills_add_pill_activity">Add pill</string>
     <string name="pills_modify">Modify</string>
-    <string name="pill_time">"It's time to take your "</string>
-    <string name="pill_pills_left_notification">"Here's how many pills you have left: "</string>
+    <string name="pills_time">"It's time to take your "</string>
     <string name="pills_duplicate_pill">Can\'t create a new pill with an existing pill name!</string>
     <string name="pills_modify_duplicate_pill">Can\'t modify into the name of an already existing pill!</string>
-
     <!-- Map strings -->
     <string name="map_activity">Map</string>
     <string name="map_hospitals">Hospitals</string>
