@@ -1,9 +1,6 @@
 # Hybrid Pocket Doctor - HPDoctor
 **HPDoctor** is an Android app that combines multiple medical features.
-
-## Attention! In order for this app to work you need to create a keys.xml file in res/values and have it contain a string resource called google_map_key that holds the Google Cloud API key taken from the account.
-## Attention! In order for this app to work you need to copy google-services.json into this project from the firebase project settings.
-## These were done to prevent malicious uses of the API keys!
+*For setting up the app please read the bottom of the README.*
 
 ### A navigation drawer for moving trough the application's features.
 ![Navigation Drawer](/README_resources/NavigationDrawer.png)<br/>
@@ -33,5 +30,8 @@ Also uses Google Cloud Location Services to show nearby medical locations to the
 
 ### Settings
 Uses preferences to save and display the app settings.<br/>
-![Settings Activity](/README_resources/Settings.png)<br/>
+![Settings Activity](/README_resources/Settings.png)
 
+## Attention! In order for this app to work you need to create a keys.xml file in res/values and have it contain a string resource called google_map_key that holds the Google Cloud API key taken from the account.
+## Attention! In order for this app to work you need to copy google-services.json into this project from the firebase project settings.
+## These were done to prevent malicious uses of the API keys!
