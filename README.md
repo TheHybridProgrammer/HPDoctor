@@ -14,7 +14,7 @@ The menu itself contains a switch case that either stars a fragment for pills re
 ### Pills Reminder
 It has the option to change currently displayed pills by pressing one of the day buttons which are ordered according to the current day. This is done trough a Constraint Layout.
 Only the current quantities of the current day pills can be modified and once it hits 0 the checkbox gets checked and the pill name gets cut through.
-The data is store in a json file.
+The data is store in a json file.<br/>
 ![Pill Reminder Fragment](/README_resources/PillsReminder.png)
 
 To modify a pill you click it's name and to add a pill you press the + button, both opening a new activity.
@@ -26,12 +26,12 @@ The data is also stored in a json file in order to be able to download and uploa
 ![Medical Data](/README_resources/MedicalData.png)<br/>
 
 ### Map
-Uses Google Cloud Map Services to show an interactive map to the user that can be moved trough.
+Uses Google Cloud Map Services to show an interactive map to the user that can be moved trough.<br/>
 ![Map Activity](/README_resources/Map.png)<br/>
 Also uses Google Cloud Location Services to show nearby medical locations to the user and their respective names.
 ![Map Nearby](/README_resources/MapNearby.png)<br/>
 
 ### Settings
-Uses preferences to save and display the app settings.
+Uses preferences to save and display the app settings.<br/>
 ![Settings Activity](/README_resources/Settings.png)<br/>
 
