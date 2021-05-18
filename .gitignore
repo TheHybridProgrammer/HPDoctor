@@ -13,5 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
-/app/src/main/res/values/google_map_key.xml
+/app/src/main/res/values/keys.xml
 /app/google-services.json
