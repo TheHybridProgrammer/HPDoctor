@@ -10,13 +10,14 @@ The menu itself contains a switch case that either stars a fragment for pills re
 or an activity intent for maps and settings.
 
 ### Pills Reminder
-It has the option to change currently displayed pills by pressing one of the day buttons which are <br/>
-ordered according to the current day. This is done trough a Constraint Layout.</br>
-Only current day the pill quantity of the current day pills can be modified and once it hits 0 </br>
-the checkbox gets checked and the pill name gets cut through.<br/>
-![Pill Reminder Fragment](/README_resources/PillsReminder.png)<br/>
+It has the option to change currently displayed pills by pressing one of the day buttons which are
+ordered according to the current day. This is done trough a Constraint Layout.
+Only the current quantities of the current day pills can be modified and once it hits 0
+the checkbox gets checked and the pill name gets cut through.
+![Pill Reminder Fragment](/README_resources/PillsReminder.png)
 
 To add or modify a pill
+
 ![Pill Reminder Modifier](/README_resources/PillsReminderModify.png)<br/>
 
 ### Medical Data
