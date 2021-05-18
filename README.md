@@ -18,7 +18,7 @@ The data is store in a json file.<br/>
 ![Pill Reminder Fragment](/README_resources/PillsReminder.png)
 
 To modify a pill you click it's name and to add a pill you press the + button, both opening a new activity.
-![Pill Reminder Modifier](/README_resources/PillsReminderModify.png)<br/>
+![Pill Reminder Modifier](/README_resources/PillsReminderModify.png)
 
 ### Medical Data
 Stores and modifies the medical data of the user.
@@ -29,7 +29,7 @@ The data is also stored in a json file in order to be able to download and uploa
 Uses Google Cloud Map Services to show an interactive map to the user that can be moved trough.<br/>
 ![Map Activity](/README_resources/Map.png)<br/>
 Also uses Google Cloud Location Services to show nearby medical locations to the user and their respective names.
-![Map Nearby](/README_resources/MapNearby.png)<br/>
+![Map Nearby](/README_resources/MapNearby.png)
 
 ### Settings
 Uses preferences to save and display the app settings.<br/>
