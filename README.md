@@ -13,7 +13,7 @@ or an activity intent for maps and settings.
 It has the option to change currently displayed pills by pressing one of the day buttons which are <br/>
 ordered according to the current day. This is done trough a Constraint Layout.</br>
 Only current day the pill quantity of the current day pills can be modified and once it hits 0 </br>
-the checkbox gets checked and the pill name gets cut through.
+the checkbox gets checked and the pill name gets cut through.<br/>
 ![Pill Reminder Fragment](/README_resources/PillsReminder.png)<br/>
 ![Pill Reminder Modifier](/README_resources/PillsReminderModify.png)<br/>
 
