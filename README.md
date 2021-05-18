@@ -33,6 +33,6 @@ Also uses Google Cloud Location Services to show nearby medical locations to the
 Uses preferences to save and display the app settings.<br/>
 ![Settings Activity](/README_resources/Settings.png)
 
-## Attention! In order for this app to work you need to create a keys.xml file in res/values and have it contain a string resource called google_map_key that holds the Google Cloud API key taken from the account.
-## Attention! In order for this app to work you need to copy google-services.json into this project from the firebase project settings.
+## In order for this app to work you need to create a keys.xml file in res/values and have it contain a string resource called google_map_key that holds the Google Cloud API key taken from the account.
+## In order for this app to work you need to copy google-services.json into this project from the firebase project settings.
 ## These were done to prevent malicious uses of the API keys!
