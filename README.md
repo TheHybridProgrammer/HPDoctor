@@ -1,5 +1,5 @@
 # Hybrid Pocket Doctor - HPDoctor
-**HPDoctor** is an Android app that combines multiple medical features.
+**HPDoctor** is an Android app that combines multiple medical features and libraries such as Firebase and Google Cloud Services.
 
 *For setting up the app please read the bottom of the README.*
 
