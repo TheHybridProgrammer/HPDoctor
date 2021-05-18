@@ -22,8 +22,8 @@ To modify a pill you click it's name and to add a pill you press the + button, b
 
 ### Medical Data
 Stores and modifies the medical data of the user.
-The data is also stored in a json file in order to be able to download and upload data sets.
-![Medical Data](/README_resources/MedicalData.png)<br/>
+The data is also stored in a json file in order to be able to download and upload data sets.<br/>
+![Medical Data](/README_resources/MedicalData.png)
 
 ### Map
 Uses Google Cloud Map Services to show an interactive map to the user that can be moved trough.<br/>
