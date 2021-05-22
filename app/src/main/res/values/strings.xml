@@ -93,6 +93,7 @@
     <string name="pills_time">"It's time to take your "</string>
     <string name="pills_duplicate_pill">Can\'t create a new pill with an existing pill name!</string>
     <string name="pills_modify_duplicate_pill">Can\'t modify into the name of an already existing pill!</string>
+
     <!-- Map strings -->
     <string name="map_activity">Map</string>
     <string name="map_hospitals">Hospitals</string>
