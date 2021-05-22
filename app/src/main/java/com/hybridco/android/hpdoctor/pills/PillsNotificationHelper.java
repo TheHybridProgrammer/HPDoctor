@@ -85,25 +85,25 @@ public class PillsNotificationHelper extends ContextWrapper {
                                     boolean thursday, boolean friday, boolean saturday,
                                     boolean sunday) {
         switch (day) {
-            case 1:
+            case 0:
                 if (sunday == true) return true;
                 break;
-            case 2:
+            case 1:
                 if (monday == true) return true;
                 break;
-            case 3:
+            case 2:
                 if (tuesday == true) return true;
                 break;
-            case 4:
+            case 3:
                 if (wednesday == true) return true;
                 break;
-            case 5:
+            case 4:
                 if (thursday == true) return true;
                 break;
-            case 6:
+            case 5:
                 if (friday == true) return true;
                 break;
-            case 7:
+            case 6:
                 if (saturday == true) return true;
                 break;
         }

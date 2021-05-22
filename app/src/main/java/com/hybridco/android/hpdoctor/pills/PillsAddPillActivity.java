@@ -185,7 +185,7 @@ public class PillsAddPillActivity extends AppCompatActivity implements TimePicke
                             int minute = Integer.parseInt(notificationItems.get(i).substring(
                                     notificationItems.get(i).lastIndexOf(":") + 1));
 
-                            for (int j = 1; j < 7; j++) {
+                            for (int j = 0; j < 7; j++) {
                                 if (PillsNotificationHelper.checkIfDayIsSelected(j, mondayButton.isChecked(),
                                         tuesdayButton.isChecked(), wednesdayButton.isChecked(),
                                         thursdayButton.isChecked(), fridayButton.isChecked(),
@@ -262,7 +262,7 @@ public class PillsAddPillActivity extends AppCompatActivity implements TimePicke
         Calendar calendar = Calendar.getInstance();
         int dayOfWeek = calendar.get(Calendar.DAY_OF_WEEK) + 1 - dayCount;
 
-        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), AlarmManager.INTERVAL_DAY * 3, pendingIntent);
+        alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, c.getTimeInMillis(), AlarmManager.INTERVAL_DAY * 7, pendingIntent);
     }
 
 }
